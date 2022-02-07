@@ -232,6 +232,8 @@ export class Desktop extends Component {
 
     renderDesktopApps = () => {
         if (Object.keys(this.state.closed_windows).length === 0) return;
+        
+
         let appsJsx = [];
         apps.forEach((app, index) => {
             if (this.state.desktop_apps.includes(app.id)) {
@@ -244,7 +246,7 @@ export class Desktop extends Component {
                 }
 
                 appsJsx.push(
-                    <UbuntuApp key={index} {...props} />
+                            <UbuntuApp key={app.id} {...props} />
                 );
             }
         });
