@@ -202,11 +202,14 @@ function Skills() {
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
                         <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="Hamza next" />
                         <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="Hamza react" />
+                        <img className=" m-1" src="https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=react&logoColor=4FC08D" alt="Hamza Vue"/>
                         <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="Hamza flutter" />
                         <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Hamza tailwind css" />
                         <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="Hamza node.js" className="m-1" />
                         <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="Hamza jquery" className="m-1" />
                         <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="Hamza redux" />
+                        <img className='m-1' src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white" alt="MongoDb"/>
+                        <img className='m-1' src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white"/>
                     </div>
                 </div>
             </div>
@@ -222,65 +225,65 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "economist.com Unlocked",
+            name: "RanknRole",
             date: "Mar 2021",
-            link: "https://github.com/Hamzatatheer/economist.com-unlocked",
+            link: "https://github.com/hamzatatheer/portfolio",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "A platform like linkedin but with AI based recruitment !",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["javascript", "node","micro-services"]
         },
         {
-            name: "Flutter banking app",
+            name: "Vent Chat",
             date: "Jan 2021",
-            link: "https://github.com/Hamzatatheer/flutter-banking-app",
+            link: "purifymymind.com",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "Ever felt sad and you had no one to talk to ? Vent Chat connects you to a random stranger where you join to either listen or help someone out",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: ["javascript", "realtime", "socketio", "google-cloud"]
         },
         {
-            name: "CPU scheduling application",
+            name: "Sleep Diary",
             date: "Dec 2020",
-            link: "https://github.com/Hamzatatheer/CPU-Scheduling-APP-React-Native",
+            link: "https://play.google.com/store/apps/details?id=com.sakoonkineend",
             description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+                "React Native Application to get insomnia tips",
             ],
             domains: ["react-native", "javascript"]
         },
         {
-            name: "Meditech Healthcare WebApp",
+            name: "Therapy Channel",
             date: "Nov 2020",
-            link: "https://github.com/Hamzatatheer/Meditech-Healthcare",
+            link: "https://github.com/hamzatatheer/portfolio",
             description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
+                "Developed Mobile Appp for connecting with therapists",
             ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
+            domains: ["react-native", "javascript"]
         },
         {
-            name: "Problem Recommendation System",
+            name: "Smart AI Bot For playing Connect 4",
             date: "Sep 2020",
-            link: "https://github.com/Hamzatatheer/Improve-Codeforces",
+            link: "",
             description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
+                "Dont Underestimate the bot. This bot was able to win against all real players",
             ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
+            domains: ["python", "artificial-intelligence", "heuristics"]
         },
         {
-            name: "Cleanliness Automation",
+            name: "Drive By Restaurant App",
             date: "Dec 2019",
             link: "https://github.com/Hamzatatheer/CPU-Scheduling-APP-React-Native",
             description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+                "A waiterless service to allow restaurants to follow Covid SOPS",
             ],
         }
     ];
 
     const tag_colors = {
         "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "chrome-extension": "yellow-400",
+        "artificial-intelligence": "red-500",
+        "google-cloud": "red-600",
+        "heuristics": "yellow-400",
         "flutter": "blue-400",
         "dart": "blue-500",
         "react-native": "purple-500",
