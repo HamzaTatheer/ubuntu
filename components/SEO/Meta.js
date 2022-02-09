@@ -5,14 +5,14 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>hamza Patel Portfolio - Computer Engineering Student</title>
+            <title>Hamza Tatheer Portfolio - Computer Engineering Student</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="hamza Patel Portfolio - Computer Engineering Student" />
+            <meta name="title" content="Hamza Tatheer Portfolio - Computer Engineering Student" />
             <meta name="description"
-                content="hamza Patel's (hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="author" content="hamza Patel (hamzatatheer)" />
+                content="Hamza Tatheer's (Hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="author" content="Hamza Tatheer (Hamzatatheer)" />
             <meta name="keywords"
-                content="hamzatatheer, hamzatatheer's portfolio, hamzatatheer linux, ubuntu portfolio, hamza patel protfolio,hamza patel computer, hamza patel, hamza ubuntu, hamza patel ubuntu portfolio" />
+                content="Hamzatatheer, Hamzatatheer's portfolio, Hamzatatheer linux, ubuntu portfolio, Hamza Tatheer protfolio,Hamza Tatheer computer, Hamza Tatheer, Hamza ubuntu, Hamza Tatheer ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -22,25 +22,25 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="hamza Patel Portfolio - Computer Engineering Student" />
+            <meta itemProp="name" content="Hamza Tatheer Portfolio - Computer Engineering Student" />
             <meta itemProp="description"
-                content="hamza Patel's (hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Hamza Tatheer's (Hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="hamza Patel Portfolio - Computer Engineering Student" />
+            <meta name="twitter:title" content="Hamza Tatheer Portfolio - Computer Engineering Student" />
             <meta name="twitter:description"
-                content="hamza Patel's (hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="hamzatatheer" />
-            <meta name="twitter:creator" content="hamzatatheer" />
+                content="Hamza Tatheer's (Hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="twitter:site" content="Hamzatatheer" />
+            <meta name="twitter:creator" content="Hamzatatheer" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="hamza Patel Portfolio - Computer Engineering Student" />
+            <meta name="og:title" content="Hamza Tatheer Portfolio - Computer Engineering Student" />
             <meta name="og:description"
-                content="hamza Patel's (hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Hamza Tatheer's (Hamzatatheer) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://hamzatatheer.github.io/" />
-            <meta name="og:site_name" content="hamza Patel Personal Portfolio" />
+            <meta name="og:url" content="http://Hamzatatheer.github.io/" />
+            <meta name="og:site_name" content="Hamza Tatheer Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 

@@ -1,8 +1,8 @@
 {
-  "name": "hamzatatheer-portfolio",
+  "name": "Hamzatatheer-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://hamzatatheer.github.io/",
+  "homepage": "https://Hamzatatheer.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
